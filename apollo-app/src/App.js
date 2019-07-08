@@ -43,7 +43,7 @@ function App() {
         {
           ({loading, error, data, refetch}) => {
               return loading ? "onLoad" : data.books.map(({id, title}) => {
-                  return <p>{title}</p>
+                  return <p key={title}>{title}</p>
               })
           }
         }

@@ -1,0 +1,27 @@
+{
+  "name": "own-react-relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "start-all": "npm start 4000 & cd apollo-app/ && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install && cd cd apollo-app/ && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.6.4",
+    "apollo-server-express": "^2.6.7",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}

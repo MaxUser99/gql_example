@@ -1,0 +1,6 @@
+[
+  {"id": 1, "author": 1, "title": "Introduction to GraphQL", "votes": 2},
+  {"id": 2, "author": 4, "title": "Welcome to Meteor", "votes": 3},
+  {"id": 3, "author": 1, "title": "Advanced GraphQL", "votes": 1},
+  {"id": 4, "author": 4, "title": "Launchpad is Cool", "votes": 7}
+]
